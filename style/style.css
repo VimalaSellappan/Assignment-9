@@ -66,6 +66,7 @@ body {
 
 
 .crown {
+    margin-left: 120px;
     width: 400px;
     height: 200px;
     stroke:rgb(175, 19, 131);
@@ -74,14 +75,14 @@ body {
     stroke-linecap: round;
     stroke-linejoin: round;
 }
-
-/* Add hover effect */
 .crown:hover {
     stroke: goldenrod;
     transform: scale(1.1);
-    transition: 0.3s ease-in-out;
+    transition: 0.5s ease-in-out;
+    
 }
-p {
-    font-size: 18px;
-    color: #666;
+.content{
+    font-size: 40px;
+    color: black;
+    font-family: "Style Script", serif;
 }
