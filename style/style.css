@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffc5;
+    text-align: center;
+}
+.invitation
+{
+    display: flex;
+    background-color: pink;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 40%;
+    height: 100mvh;
+    padding: 40px;
+    border-radius: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 
+                0 0 15px rgba(255, 215, 0, 0.4);
+}
+.heading{
+    font-family: "Style Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    animation: beat .25s infinite alternate;
+    transform-origin: center;
+  
+}
+@keyframes beat{
+	to { transform: scale(1.1); }
+}
+.name{
+    font-family: "Oleo Script", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(175, 19, 131);
+  font-size: 80px;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
